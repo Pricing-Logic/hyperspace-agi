@@ -1,0 +1,23 @@
+{
+  "model": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "trace_files": [
+    "experiments/traces/traces_full_20260320_141211.jsonl",
+    "experiments/traces/traces_full_20260320_143457.jsonl",
+    "experiments/traces/traces_full_20260320_144225.jsonl",
+    "experiments/traces/traces_full_20260320_151748.jsonl",
+    "experiments/traces/traces_full_20260320_171021.jsonl"
+  ],
+  "unique_traces": 152,
+  "train_raw": 137,
+  "valid_raw": 15,
+  "train_weighted": 163,
+  "by_difficulty": {
+    "1": 73,
+    "2": 50,
+    "3": 29
+  },
+  "rank": 8,
+  "lr": 0.0001,
+  "epochs": 3,
+  "seed": 42
+}
