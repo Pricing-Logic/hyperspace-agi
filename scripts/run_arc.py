@@ -50,7 +50,7 @@ Examples:
     )
 
     parser.add_argument(
-        "--backend", choices=["mlx", "api"], default=None,
+        "--backend", choices=["mlx", "api", "cuda"], default=None,
         help="LLM backend to use. Overrides LLM_BACKEND env var. (default: from config)",
     )
     parser.add_argument(
@@ -99,6 +99,8 @@ Examples:
         backend = args.backend or os.environ.get("LLM_BACKEND", "mlx")
         if backend == "mlx":
             os.environ["MLX_MODEL"] = args.model
+        elif backend == "cuda":
+            os.environ["CUDA_MODEL"] = args.model
         else:
             os.environ["API_MODEL"] = args.model
 
