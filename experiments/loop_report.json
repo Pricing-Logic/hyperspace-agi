@@ -1,0 +1,231 @@
+{
+  "run_id": "loop_20260320_163656_553be2",
+  "model": "Qwen2.5-3B-4bit+LoRA-v1",
+  "total_generations": 10,
+  "total_problems": 100,
+  "total_correct": 56,
+  "overall_accuracy": 0.56,
+  "total_traces": 56,
+  "traces_file": "/Users/sam/Projects/tests/Hyperspace AGI/experiments/traces/traces_20260320_171021.jsonl",
+  "full_traces_file": "/Users/sam/Projects/tests/Hyperspace AGI/experiments/traces/traces_full_20260320_171021.jsonl",
+  "fine_tune_triggered": true,
+  "fine_tune_history": [
+    {
+      "status": "failed",
+      "adapter_path": "/Users/sam/Projects/tests/Hyperspace AGI/experiments/adapters/adapter_gen009",
+      "generation": 9,
+      "train_size": 50,
+      "valid_size": 6,
+      "timestamp": "2026-03-20T17:10:20.023537+00:00",
+      "reason": "LoRA training failed (exit 2):\n RESUME_ADAPTER_FILE]\n                              [--adapter-path ADAPTER_PATH]\n                              [--save-every SAVE_EVERY] [--test]\n                              [--test-batches TEST_BATCHES]\n                              [--max-seq-length MAX_SEQ_LENGTH] [-c CONFIG]\n                              [--grad-checkpoint] [--report-to REPORT_TO]\n                              [--project-name PROJECT_NAME] [--seed SEED]\npython3 -m mlx_lm.lora: error: unrecognized arguments: --lora-rank 8\n"
+    }
+  ],
+  "stopped_early": false,
+  "stop_reason": "",
+  "total_elapsed_seconds": 2004.64,
+  "generations": [
+    {
+      "generation": 0,
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10,
+      "difficulty": 2,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 1.0,
+        "algebra": 1.0,
+        "logic": 1.0,
+        "sequences": 1.0,
+        "code_reasoning": 1.0
+      },
+      "traces_collected": 10,
+      "fine_tune_status": null,
+      "elapsed_seconds": 135.61
+    },
+    {
+      "generation": 1,
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 1.0,
+        "algebra": 0.0,
+        "logic": 0.5,
+        "sequences": 0.5,
+        "code_reasoning": 0.0
+      },
+      "traces_collected": 15,
+      "fine_tune_status": null,
+      "elapsed_seconds": 239.74
+    },
+    {
+      "generation": 2,
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 1.0,
+        "algebra": 0.0,
+        "logic": 0.6666666666666666,
+        "sequences": 0.5,
+        "code_reasoning": 0.0
+      },
+      "traces_collected": 20,
+      "fine_tune_status": null,
+      "elapsed_seconds": 181.82
+    },
+    {
+      "generation": 3,
+      "accuracy": 0.4,
+      "correct": 4,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 0.0,
+        "algebra": 0.0,
+        "logic": 0.75,
+        "sequences": 0.0,
+        "code_reasoning": 0.5
+      },
+      "traces_collected": 24,
+      "fine_tune_status": null,
+      "elapsed_seconds": 259.87
+    },
+    {
+      "generation": 4,
+      "accuracy": 0.3,
+      "correct": 3,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 2,
+      "domain_accuracy": {
+        "arithmetic": 0.0,
+        "algebra": 0.0,
+        "logic": 0.6666666666666666,
+        "sequences": 0.3333333333333333
+      },
+      "traces_collected": 27,
+      "fine_tune_status": null,
+      "elapsed_seconds": 233.07
+    },
+    {
+      "generation": 5,
+      "accuracy": 0.8,
+      "correct": 8,
+      "total": 10,
+      "difficulty": 2,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 1.0,
+        "algebra": 0.5,
+        "logic": 1.0,
+        "sequences": 1.0,
+        "code_reasoning": 1.0
+      },
+      "traces_collected": 35,
+      "fine_tune_status": null,
+      "elapsed_seconds": 148.23
+    },
+    {
+      "generation": 6,
+      "accuracy": 0.5,
+      "correct": 5,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 0.2,
+        "logic": 1.0,
+        "sequences": 1.0,
+        "code_reasoning": 0.5
+      },
+      "traces_collected": 40,
+      "fine_tune_status": null,
+      "elapsed_seconds": 214.17
+    },
+    {
+      "generation": 7,
+      "accuracy": 0.4,
+      "correct": 4,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 0.0,
+        "algebra": 0.0,
+        "logic": 0.5,
+        "sequences": 0.3333333333333333,
+        "code_reasoning": 0.6666666666666666
+      },
+      "traces_collected": 44,
+      "fine_tune_status": null,
+      "elapsed_seconds": 233.8
+    },
+    {
+      "generation": 8,
+      "accuracy": 0.2,
+      "correct": 2,
+      "total": 10,
+      "difficulty": 3,
+      "new_difficulty": 2,
+      "domain_accuracy": {
+        "arithmetic": 0.0,
+        "algebra": 0.25,
+        "sequences": 0.3333333333333333,
+        "code_reasoning": 0.0
+      },
+      "traces_collected": 46,
+      "fine_tune_status": null,
+      "elapsed_seconds": 216.64
+    },
+    {
+      "generation": 9,
+      "accuracy": 1.0,
+      "correct": 10,
+      "total": 10,
+      "difficulty": 2,
+      "new_difficulty": 3,
+      "domain_accuracy": {
+        "arithmetic": 1.0,
+        "algebra": 1.0,
+        "sequences": 1.0,
+        "code_reasoning": 1.0
+      },
+      "traces_collected": 56,
+      "fine_tune_status": "FAILED (gen 10)",
+      "elapsed_seconds": 141.69
+    }
+  ],
+  "collector_stats": {
+    "total_traces": 56,
+    "by_domain": {
+      "logic": 17,
+      "arithmetic": 14,
+      "sequences": 12,
+      "code_reasoning": 7,
+      "algebra": 6
+    },
+    "by_difficulty": {
+      "2": 28,
+      "3": 28
+    },
+    "by_generation": {
+      "0": 10,
+      "1": 5,
+      "2": 5,
+      "3": 4,
+      "4": 3,
+      "5": 8,
+      "6": 5,
+      "7": 4,
+      "8": 2,
+      "9": 10
+    }
+  },
+  "timestamp": "2026-03-20T17:10:21.199206+00:00"
+}

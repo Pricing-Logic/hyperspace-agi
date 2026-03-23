@@ -1,0 +1,13 @@
+# Cloud GPU dependencies (vast.ai / Modal)
+# DO NOT include mlx or mlx-lm — Apple Silicon only
+torch>=2.1
+transformers>=4.36
+peft>=0.7
+datasets>=2.16
+accelerate>=0.25
+bitsandbytes>=0.42
+sentencepiece
+protobuf
+numpy
+sympy
+requests

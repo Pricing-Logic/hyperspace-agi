@@ -1,0 +1,8 @@
+# LoRA v2 config — advisor-recommended hyperparameters
+# Rank 16 (up from 8), alpha 32, more layers, lower LR
+
+lora_parameters:
+  rank: 16
+  alpha: 32.0
+  dropout: 0.05
+  scale: 2.0
