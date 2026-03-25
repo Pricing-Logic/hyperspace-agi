@@ -1,0 +1,23 @@
+{
+  "total_problems": 237,
+  "per_domain_tier": 10,
+  "seed": 42,
+  "sha256": "693b1e8fb31c9972730b34bfb7cd4d792fbeaf598446f7e023ad71eedbad9366",
+  "by_domain": {
+    "composite": 50,
+    "logic": 36,
+    "arithmetic": 40,
+    "algebra": 40,
+    "sequences": 40,
+    "code_reasoning": 31
+  },
+  "by_tier": {
+    "5": 50,
+    "2": 44,
+    "1": 48,
+    "3": 50,
+    "4": 45
+  },
+  "failures": 0,
+  "output_path": "experiments/frozen_benchmark_v1.jsonl"
+}

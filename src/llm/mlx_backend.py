@@ -4,15 +4,19 @@ from .base import LLMInterface
 
 
 class MLXBackend(LLMInterface):
-    def __init__(self, model_name: str = "mlx-community/Qwen2.5-3B-Instruct-4bit"):
+    def __init__(self, model_name: str = "mlx-community/Qwen2.5-3B-Instruct-4bit", adapter_path: str | None = None):
         self.model_name = model_name
+        self.adapter_path = adapter_path
         self._model = None
         self._tokenizer = None
 
     def _load(self):
         if self._model is None:
             from mlx_lm import load
-            self._model, self._tokenizer = load(self.model_name)
+            kwargs = {}
+            if self.adapter_path:
+                kwargs["adapter_path"] = self.adapter_path
+            self._model, self._tokenizer = load(self.model_name, **kwargs)
 
     def _apply_chat_template(self, prompt: str) -> str:
         """Apply the model's chat template to a raw prompt string."""
