@@ -1,0 +1,206 @@
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -10, 21\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 91 * 71?", "correct_answer": "6461", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "Consider the arithmetic sequence starting at 2 with common difference 2. What is the sum of the first 15 terms, modulo 6?", "correct_answer": "0", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is True AND True? Answer True or False.", "correct_answer": "True", "domain": "logic", "difficulty": 1, "tier": 1}
+{"text": "Evaluate f(x) = 3x^2 + 5x - 4 at x = 3.", "correct_answer": "38", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "In the Fibonacci sequence (starting 0, 1, 1, 2, 3, 5, ...), what is the 12th term? (Use 0-based indexing: F(0)=0, F(1)=1, F(2)=1, ...)", "correct_answer": "144", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "Solve for x: x + 21 = 53", "correct_answer": "32", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(6))\n```", "correct_answer": "720", "domain": "code_reasoning", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -12, 27\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 5^8 mod 10? (Compute 5 raised to the power 8, then take the remainder when divided by 10.)", "correct_answer": "5", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "What is the next number in the sequence: 6, 7, 8, 9, 10, ...?", "correct_answer": "11", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -10, 24\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Find the sum of all prime numbers less than 40.", "correct_answer": "197", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "How many Fibonacci numbers less than 100 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -11, 28\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Find the intersection of [6, 7, 12, 13, 16] and [1, 9, 11, 17, 18]. List the elements in ascending order.", "correct_answer": "[]", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "What is the 12th Fibonacci number modulo 8? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "0", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "If x + 13 = 35, what is x * 7?", "correct_answer": "154", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nx = 17\ny = 9\nprint(x + y)\n```", "correct_answer": "26", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "Evaluate f(x) = 1x^2 - 9x + 0 at x = -4.", "correct_answer": "52", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "For the equation x^2 + 10x + 21 = 0, what is the sum of its roots?", "correct_answer": "-10", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nx = 14\ny = 16\nprint(x + y)\n```", "correct_answer": "30", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "For the equation x^2 - 2x - 8 = 0, what is the sum of its roots?", "correct_answer": "2", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "If x + 18 = 43, what is x * 4?", "correct_answer": "100", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "If x + 5 = 27, what is x * 9?", "correct_answer": "198", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "A store sells widgets for $22 each. You buy 4 widgets and get a $28 discount. How much do you pay in total?", "correct_answer": "60", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -8, 15\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the next number in the sequence: 14, 22, 30, 38, 46, ...?", "correct_answer": "54", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "What is 6^8 mod 11? (Compute 6 raised to the power 8, then take the remainder when divided by 11.)", "correct_answer": "4", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "Evaluate f(x) = 4x^2 - 5x - 2 at x = 2.", "correct_answer": "4", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "What is the 14th Fibonacci number modulo 10? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "7", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "A store sells widgets for $19 each. You buy 9 widgets and get a $151 discount. How much do you pay in total?", "correct_answer": "20", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "How many permutations of 3 items from a set of 5? (Compute P(5,3) = 5! / (5-3)!)", "correct_answer": "60", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What is (505 * 758) mod 21?", "correct_answer": "2", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "Consider the arithmetic sequence starting at 1 with common difference 1. What is the sum of the first 15 terms, modulo 11?", "correct_answer": "10", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -6, 5\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "1", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "For the equation x^2 - 12x + 35 = 0, what is the sum of its roots?", "correct_answer": "12", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What is 13 * 77?", "correct_answer": "1001", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What is the 10th Fibonacci number modulo 8? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "7", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "What is the next number in the sequence: 3, 12, 48, 192, 768, ...?", "correct_answer": "3072", "domain": "sequences", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -16, 60\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "6", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 6 - 5?", "correct_answer": "1", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "How many permutations of 2 items from a set of 4? (Compute P(4,2) = 4! / (4-2)!)", "correct_answer": "12", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -10, 16\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 88 + 96?", "correct_answer": "184", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What is 16 + 19 * 5? (Use standard order of operations.)", "correct_answer": "111", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "What is the sum of all integers from 1 to 50?", "correct_answer": "1275", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "How many permutations of 4 items from a set of 6? (Compute P(6,4) = 6! / (6-4)!)", "correct_answer": "360", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What is the next number in the sequence: 2, 6, 18, 54, 162, ...?", "correct_answer": "486", "domain": "sequences", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -5, 6\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -5, 4\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "1", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 19 + 96?", "correct_answer": "115", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(3))\n```", "correct_answer": "6", "domain": "code_reasoning", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nx = 5\ny = 13\nprint(x + y)\n```", "correct_answer": "18", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "Evaluate f(x) = 1x^2 + 4x + 7 at x = -4.", "correct_answer": "7", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "How many ways can you choose 4 items from a set of 6? (Compute C(6,4))", "correct_answer": "15", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "For the equation x^2 + 7x + 6 = 0, what is the sum of its roots?", "correct_answer": "-7", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -19, 90\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "9", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\ntotal = 0\nfor i in range(3):\n    total += i\nprint(total)\n```", "correct_answer": "3", "domain": "code_reasoning", "difficulty": 2, "tier": 2}
+{"text": "What is the next number in the sequence: 4, 16, 64, 256, 1024, ...?", "correct_answer": "4096", "domain": "sequences", "difficulty": 2, "tier": 2}
+{"text": "What is the 15th Fibonacci number modulo 4? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "2", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "What is (256 * 742) mod 12?", "correct_answer": "4", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "A store sells widgets for $11 each. You buy 3 widgets and get a $25 discount. How much do you pay in total?", "correct_answer": "8", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "Solve the system of equations:\n  2x + 2y = -20\n  5x + 4y = -47\nWhat is x + y?", "correct_answer": "-10", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(7))\n```", "correct_answer": "5040", "domain": "code_reasoning", "difficulty": 4, "tier": 4}
+{"text": "If x + 7 = 37, what is x * 10?", "correct_answer": "300", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "Find the intersection of [9, 12, 14, 17, 18, 19] and [5, 9, 10, 12, 15]. List the elements in ascending order.", "correct_answer": "[9, 12]", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "What is 16 * 5?", "correct_answer": "80", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What is the next number in the sequence: 8, 11, 14, 17, 20, ...?", "correct_answer": "23", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "How many Fibonacci numbers less than 200 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is (873 * 148) mod 10?", "correct_answer": "4", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "What is the next number in the sequence: 10, 18, 26, 34, 42, ...?", "correct_answer": "50", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "For the equation x^2 - 2x - 15 = 0, what is the sum of its roots?", "correct_answer": "2", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What is (538 * 697) mod 19?", "correct_answer": "2", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "How many ways can you choose 3 items from a set of 5? (Compute C(5,3))", "correct_answer": "10", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "Consider the arithmetic sequence starting at 1 with common difference 5. What is the sum of the first 12 terms, modulo 9?", "correct_answer": "0", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nx = 4\ny = 5\nprint(x + y)\n```", "correct_answer": "9", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\nx = 16\ny = 8\nprint(x + y)\n```", "correct_answer": "24", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -6, 5\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "1", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is (352 * 862) mod 24?", "correct_answer": "16", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nresult = [x**2 for x in range(1, 7) if x % 2 == 0]\nprint(sum(result))\n```", "correct_answer": "56", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "What is False OR True? Answer True or False.", "correct_answer": "True", "domain": "logic", "difficulty": 1, "tier": 1}
+{"text": "How many Fibonacci numbers less than 50 are also prime?", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "In the Fibonacci sequence (starting 0, 1, 1, 2, 3, 5, ...), what is the 7th term? (Use 0-based indexing: F(0)=0, F(1)=1, F(2)=1, ...)", "correct_answer": "13", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "What is the 15th Fibonacci number modulo 8? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "2", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "Solve the system of equations:\n  1x + 1y = 7\n  1x + 4y = 19\nWhat is x + y?", "correct_answer": "7", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "How many ways can you choose 4 items from a set of 5? (Compute C(5,4))", "correct_answer": "5", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nx = 4\ny = 15\nprint(x + y)\n```", "correct_answer": "19", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "How many permutations of 4 items from a set of 5? (Compute P(5,4) = 5! / (5-4)!)", "correct_answer": "120", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "How many permutations of 3 items from a set of 4? (Compute P(4,3) = 4! / (4-3)!)", "correct_answer": "24", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What is 9 + 5 * 14? (Use standard order of operations.)", "correct_answer": "79", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nresult = [x**2 for x in range(1, 14) if x % 2 == 0]\nprint(sum(result))\n```", "correct_answer": "364", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\ncount = 0\nfor i in range(1, 11):\n    if i % 3 == 0 or i % 5 == 0:\n        count += 1\nprint(count)\n```", "correct_answer": "5", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "What is the sum of all integers from 1 to 48?", "correct_answer": "1176", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "How many permutations of 2 items from a set of 7? (Compute P(7,2) = 7! / (7-2)!)", "correct_answer": "42", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "If x + 7 = 30, what is x * 6?", "correct_answer": "138", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "What is the sum of all integers from 1 to 11?", "correct_answer": "66", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -14, 40\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Consider the arithmetic sequence starting at 3 with common difference 5. What is the sum of the first 6 terms, modulo 13?", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Solve for x: x + 1 = 40", "correct_answer": "39", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "Find the union of [8, 13, 16, 17, 18, 19] and [3, 8, 10]. List the elements in ascending order.", "correct_answer": "[3, 8, 10, 13, 16, 17, 18, 19]", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nx = 7\ny = 20\nprint(x + y)\n```", "correct_answer": "27", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "How many permutations of 3 items from a set of 6? (Compute P(6,3) = 6! / (6-3)!)", "correct_answer": "120", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "In the Fibonacci sequence (starting 0, 1, 1, 2, 3, 5, ...), what is the 10th term? (Use 0-based indexing: F(0)=0, F(1)=1, F(2)=1, ...)", "correct_answer": "55", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "How many permutations of 3 items from a set of 7? (Compute P(7,3) = 7! / (7-3)!)", "correct_answer": "210", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What is (651 * 369) mod 25?", "correct_answer": "19", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "Consider the arithmetic sequence starting at 1 with common difference 2. What is the sum of the first 7 terms, modulo 12?", "correct_answer": "1", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the next number in the sequence: 5, 15, 45, 135, 405, ...?", "correct_answer": "1215", "domain": "sequences", "difficulty": 2, "tier": 2}
+{"text": "How many Fibonacci numbers less than 100 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "If x + 17 = 45, what is x * 8?", "correct_answer": "224", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -6, 8\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the 9th Fibonacci number modulo 8? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "2", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "What is (621 * 605) mod 9?", "correct_answer": "0", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "What is the 12th Fibonacci number modulo 9? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "0", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "How many permutations of 2 items from a set of 6? (Compute P(6,2) = 6! / (6-2)!)", "correct_answer": "30", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "What is the next number in the sequence: 8, 13, 18, 23, 28, ...?", "correct_answer": "33", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "How many Fibonacci numbers less than 200 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Solve for x: x + 24 = 44", "correct_answer": "20", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "A store sells widgets for $10 each. You buy 10 widgets and get a $38 discount. How much do you pay in total?", "correct_answer": "62", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "What is the next number in the sequence: 9, 19, 29, 39, 49, ...?", "correct_answer": "59", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "For the equation x^2 + 15x + 56 = 0, what is the sum of its roots?", "correct_answer": "-15", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\ncount = 0\nfor i in range(1, 21):\n    if i % 3 == 0 or i % 5 == 0:\n        count += 1\nprint(count)\n```", "correct_answer": "9", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "In the Fibonacci sequence (starting 0, 1, 1, 2, 3, 5, ...), what is the 9th term? (Use 0-based indexing: F(0)=0, F(1)=1, F(2)=1, ...)", "correct_answer": "34", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "What is 13 + 13 * 10? (Use standard order of operations.)", "correct_answer": "143", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "For the equation x^2 - 14x + 49 = 0, what is the sum of its roots?", "correct_answer": "14", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nx = 17\ny = 5\nprint(x + y)\n```", "correct_answer": "22", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "Consider the arithmetic sequence starting at 7 with common difference 4. What is the sum of the first 12 terms, modulo 7?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "If x + 8 = 11, what is x * 7?", "correct_answer": "21", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -5, 6\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Find the intersection of [2, 8, 9, 11, 14, 19] and [6, 8, 13, 15, 19]. List the elements in ascending order.", "correct_answer": "[8, 19]", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "Consider the arithmetic sequence starting at 5 with common difference 3. What is the sum of the first 5 terms, modulo 13?", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -9, 14\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -8, 12\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 3 + 9 * 11? (Use standard order of operations.)", "correct_answer": "102", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "If x + 15 = 19, what is x * 5?", "correct_answer": "20", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "Solve for x: x + 2 = 10", "correct_answer": "8", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "How many Fibonacci numbers less than 50 are also prime?", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -12, 27\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -14, 45\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "How many Fibonacci numbers less than 200 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "How many ways can you choose 4 items from a set of 8? (Compute C(8,4))", "correct_answer": "70", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -6, 8\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What does this Python code output?\n\n```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(5))\n```", "correct_answer": "120", "domain": "code_reasoning", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\ncount = 0\nfor i in range(1, 19):\n    if i % 3 == 0 or i % 5 == 0:\n        count += 1\nprint(count)\n```", "correct_answer": "8", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nx = 16\ny = 10\nprint(x + y)\n```", "correct_answer": "26", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "Evaluate f(x) = 5x^2 + 8x + 5 at x = -2.", "correct_answer": "9", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "Solve for x: x + 47 = 79", "correct_answer": "32", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "A store sells widgets for $41 each. You buy 5 widgets and get a $181 discount. How much do you pay in total?", "correct_answer": "24", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -12, 27\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "3", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the next number in the sequence: 18, 20, 22, 24, 26, ...?", "correct_answer": "28", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "Consider the arithmetic sequence starting at 9 with common difference 1. What is the sum of the first 10 terms, modulo 3?", "correct_answer": "0", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the next number in the sequence: 2, 8, 32, 128, 512, ...?", "correct_answer": "2048", "domain": "sequences", "difficulty": 2, "tier": 2}
+{"text": "Solve the system of equations:\n  1x + 1y = -1\n  4x + 3y = 0\nWhat is x + y?", "correct_answer": "-1", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -14, 40\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 9^8 mod 8? (Compute 9 raised to the power 8, then take the remainder when divided by 8.)", "correct_answer": "1", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "Consider the arithmetic sequence starting at 1 with common difference 5. What is the sum of the first 6 terms, modulo 9?", "correct_answer": "0", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is (246 * 371) mod 11?", "correct_answer": "10", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -12, 20\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Find the union of [4, 14, 16] and [3, 5, 12, 14, 15, 19]. List the elements in ascending order.", "correct_answer": "[3, 4, 5, 12, 14, 15, 16, 19]", "domain": "logic", "difficulty": 3, "tier": 3}
+{"text": "A store sells widgets for $5 each. You buy 4 widgets and get a $14 discount. How much do you pay in total?", "correct_answer": "6", "domain": "arithmetic", "difficulty": 2, "tier": 2}
+{"text": "If x + 15 = 44, what is x * 10?", "correct_answer": "290", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "What does this Python code output?\n\n```python\nresult = [x**2 for x in range(1, 12) if x % 2 == 0]\nprint(sum(result))\n```", "correct_answer": "220", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "For the equation x^2 - 7x + 6 = 0, what is the sum of its roots?", "correct_answer": "7", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -5, 4\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "1", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the sum of the digits of 2! (2 factorial)?", "correct_answer": "2", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "Consider the arithmetic sequence starting at 10 with common difference 5. What is the sum of the first 13 terms, modulo 8?", "correct_answer": "0", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Consider the arithmetic sequence starting at 5 with common difference 4. What is the sum of the first 9 terms, modulo 10?", "correct_answer": "9", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "For the equation x^2 + 4x - 32 = 0, what is the sum of its roots?", "correct_answer": "-4", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What is (911 * 796) mod 20?", "correct_answer": "16", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\nx = 15\ny = 18\nprint(x + y)\n```", "correct_answer": "33", "domain": "code_reasoning", "difficulty": 1, "tier": 1}
+{"text": "For the equation x^2 - 4x + 0 = 0, what is the sum of its roots?", "correct_answer": "4", "domain": "algebra", "difficulty": 4, "tier": 4}
+{"text": "What does this Python code output?\n\n```python\ncount = 0\nfor i in range(1, 28):\n    if i % 3 == 0 or i % 5 == 0:\n        count += 1\nprint(count)\n```", "correct_answer": "13", "domain": "code_reasoning", "difficulty": 3, "tier": 3}
+{"text": "What is the 14th Fibonacci number modulo 8? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "1", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "Consider the arithmetic sequence starting at 2 with common difference 4. What is the sum of the first 11 terms, modulo 12?", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Consider the arithmetic sequence starting at 4 with common difference 2. What is the sum of the first 9 terms, modulo 11?", "correct_answer": "9", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 37 * 33?", "correct_answer": "1221", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "Evaluate f(x) = 1x^2 - 8x + 10 at x = -5.", "correct_answer": "75", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "What is the next number in the sequence: 20, 28, 36, 44, 52, ...?", "correct_answer": "60", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "What is False OR False? Answer True or False.", "correct_answer": "False", "domain": "logic", "difficulty": 1, "tier": 1}
+{"text": "What does this Python code output?\n\n```python\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(4))\n```", "correct_answer": "24", "domain": "code_reasoning", "difficulty": 4, "tier": 4}
+{"text": "What is the 13th Fibonacci number modulo 4? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "1", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "What is the sum of all integers from 1 to 38?", "correct_answer": "741", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "What is the 8th Fibonacci number modulo 10? (F(0)=0, F(1)=1, 0-indexed)", "correct_answer": "1", "domain": "sequences", "difficulty": 4, "tier": 4}
+{"text": "Solve for x: x + 50 = 84", "correct_answer": "34", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "Consider the arithmetic sequence starting at 7 with common difference 3. What is the sum of the first 14 terms, modulo 12?", "correct_answer": "11", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "How many Fibonacci numbers less than 200 are also prime?", "correct_answer": "5", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the next number in the sequence: 3, 7, 11, 15, 19, ...?", "correct_answer": "23", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "How many permutations of 4 items from a set of 4? (Compute P(4,4) = 4! / (4-4)!)", "correct_answer": "24", "domain": "logic", "difficulty": 4, "tier": 4}
+{"text": "Solve for x: x + 5 = 54", "correct_answer": "49", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "Solve for x: x + 16 = 20", "correct_answer": "4", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "What is the sum of the digits of 7! (7 factorial)?", "correct_answer": "9", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "What is 79 * 5?", "correct_answer": "395", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What is 27 * 93?", "correct_answer": "2511", "domain": "arithmetic", "difficulty": 1, "tier": 1}
+{"text": "What is the next number in the sequence: 10, 11, 12, 13, 14, ...?", "correct_answer": "15", "domain": "sequences", "difficulty": 1, "tier": 1}
+{"text": "What is 5^8 mod 7? (Compute 5 raised to the power 8, then take the remainder when divided by 7.)", "correct_answer": "4", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "What does this Python code output?\n\n```python\nimport math\na, b, c = 1, -6, 8\ndiscriminant = b**2 - 4*a*c\nroot1 = (-b + math.sqrt(discriminant)) / (2*a)\nroot2 = (-b - math.sqrt(discriminant)) / (2*a)\nprint(int(min(root1, root2)))\n```", "correct_answer": "2", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "Consider the arithmetic sequence starting at 1 with common difference 5. What is the sum of the first 12 terms, modulo 7?", "correct_answer": "6", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is the sum of all integers from 1 to 46?", "correct_answer": "1081", "domain": "sequences", "difficulty": 3, "tier": 3}
+{"text": "How many Fibonacci numbers less than 50 are also prime?", "correct_answer": "4", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is (470 * 324) mod 11?", "correct_answer": "7", "domain": "arithmetic", "difficulty": 4, "tier": 4}
+{"text": "Solve for x: x + 6 = 12", "correct_answer": "6", "domain": "algebra", "difficulty": 1, "tier": 1}
+{"text": "If x + 18 = 24, what is x * 6?", "correct_answer": "36", "domain": "algebra", "difficulty": 2, "tier": 2}
+{"text": "Evaluate f(x) = 5x^2 + 7x - 3 at x = 4.", "correct_answer": "105", "domain": "algebra", "difficulty": 3, "tier": 3}
+{"text": "Consider the arithmetic sequence starting at 6 with common difference 5. What is the sum of the first 12 terms, modulo 13?", "correct_answer": "12", "domain": "composite", "difficulty": 5, "tier": 5}
+{"text": "What is 6^3 mod 6? (Compute 6 raised to the power 3, then take the remainder when divided by 6.)", "correct_answer": "0", "domain": "arithmetic", "difficulty": 3, "tier": 3}
+{"text": "What is the next number in the sequence: 4, 8, 16, 32, 64, ...?", "correct_answer": "128", "domain": "sequences", "difficulty": 2, "tier": 2}
