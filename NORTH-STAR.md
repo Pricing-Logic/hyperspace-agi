@@ -12,22 +12,32 @@ A frozen benchmark evaluation showing:
 ## What We've Proven So Far
 1. The pipeline works end-to-end (local MLX + cloud CUDA via Modal)
 2. **CONFIRMED: 3B self-improvement is REAL REASONING, not formatting** (2026-03-25)
-   - LoRA v1: +30 problems (+12.7%) on 237 frozen benchmark problems
-   - Parse failures INCREASED (+5) — model formats worse but reasons better
-   - Tier 1: +28%, Tier 2: +34%, Tier 3: +12% (genuine multi-step gains)
-3. Cross-model training (3B traces → 7B) degrades performance
-4. The overfitting wall at round 3-4 is real and consistent across scales
+   - Contamination-free: +38 problems (+18.4%) on 206 held-out problems (zero training overlap)
+   - Parse failures INCREASED (+1) — model formats worse but reasons better
+   - Tier 3 multi-step: 21% → 51% (+30pp on unseen problems)
+   - Reproduced across 2 seeds (+12.7% and +14.8% on full 237-problem benchmark)
+3. **BUT: improvement is DOMAIN-SPECIFIC, not general reasoning transfer** (2026-03-26)
+   - GSM8K (1319 grade-school word problems): BASE 79.5% → LORA 75.2% = **-4.3%**
+   - LoRA learned GSM8K formatting (hash mode) but degraded accuracy
+   - The capability shaping works within training distribution but doesn't transfer out
+4. Cross-model training (3B traces → 7B) degrades performance (-20%)
+5. The overfitting wall at round 3-4 is real and consistent across scales
 
 ## What We Need to Prove Next
 1. The base model has latent reasoning capacity (pass@8 >> pass@1)
 2. Rejection sampling + STaR retry can surface that capacity into training data
 3. One clean LoRA on high-quality self-traces produces genuine pass@1 improvement
 
-## Current Phase: Step 3 — STaR + Rejection Sampling
-- Self-improvement CONFIRMED at 3B (+12.7% on frozen benchmark, reasoning not formatting)
-- Skipped pass@k diagnostic per Codex consensus (wrong gate for this question)
-- Next: STaR (retry wrong answers with hints) + rejection sampling (k=8 per problem)
-- Goal: push 3B further, especially on Tier 3-5 where gains were smaller
+## Current Phase: Deciding Next Direction
+- Domain-specific self-improvement CONFIRMED (+18.4% in-distribution)
+- General transfer FAILED (-4.3% on GSM8K)
+- The gap: improvement is narrow to training distribution, not broad reasoning
+
+### Open questions for next phase:
+1. Can STaR + rejection sampling achieve transfer to GSM8K?
+2. Would training directly on GSM8K-style problems (instead of our generator) work?
+3. Is the -4.3% GSM8K degradation because our traces teach the wrong problem-solving style for word problems?
+4. Could mixing our traces with GSM8K train traces produce both in-distribution and transfer gains?
 
 ## Architecture Principles
 - All evaluation on FROZEN benchmark (experiments/frozen_benchmark_v1.jsonl)
