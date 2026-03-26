@@ -1,0 +1,17 @@
+{
+  "tag": "gsm8k_lora_v1",
+  "model": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "adapter": "experiments/adapters/lora_v1",
+  "prompt_mode": "gsm8k",
+  "total": 1319,
+  "correct": 992,
+  "accuracy": 75.21,
+  "parse_modes": {
+    "hash": 1169,
+    "boxed": 4,
+    "answer_tag": 4,
+    "last_line_int": 125,
+    "parse_failed": 17
+  },
+  "elapsed_s": 3307.7
+}

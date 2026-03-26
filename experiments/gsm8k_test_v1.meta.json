@@ -1,0 +1,11 @@
+{
+  "source": "gsm8k/main/test",
+  "total_problems": 1319,
+  "parse_failures": 0,
+  "sha256": "5c2796f7b4767e50fdbd19952052f09e6e338e16ef0b34a516c4d3f41162e86f",
+  "question_length_quartiles": {
+    "q25": 168,
+    "q50": 222,
+    "q75": 291
+  }
+}
